@@ -96,9 +96,6 @@ class sEEPROM {
 	/**
 	 * @brief Read \c len bytes from EEPROM.
 	 * 
-	 * It reads \c len bytes from EEPROM. Output array is casted to void.
-	 * Example: read(16, outputArray, sizeof(outputArray));
-	 * 
 	 * @param startOffset Start address offset in bytes.
 	 * @param output Pointer to output array.
 	 * @param len Size of \c output array in bytes.
@@ -109,8 +106,6 @@ class sEEPROM {
 
 	/**
 	 * @brief Write \c len bytes to EEPROM.
-	 * 
-	 * 
 	 * 
 	 * @param startOffset Start address offset in bytes.
 	 * @param value Pointer to input values to write.
